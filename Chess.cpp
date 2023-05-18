@@ -17,7 +17,12 @@ struct Position {
 };
 
 
-
 int main() {
-
+    string start, end;
+    cout << "Enter starting position (e.g. A2): ";
+    cin >> start;
+    cout << "Enter ending position (e.g. E6): ";
+    cin >> end;
+    shortestPath(start, end);
+    return 0;
 }
